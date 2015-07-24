@@ -2,17 +2,9 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- LOCALIZATION NOTE : FILE This file contains the browser main menu items -->
-<!-- LOCALIZATION NOTE : FILE Do not translate commandkeys -->
-
-<!-- LOCALIZATION NOTE (mainWindow.title): DONT_TRANSLATE -->
-<!ENTITY mainWindow.title "&brandFullName;" >
-<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifier "&brandFullName;" >
-<!-- LOCALIZATION NOTE (mainWindow.titlemodifiermenuseparator): DONT_TRANSLATE -->
-<!ENTITY mainWindow.titlemodifiermenuseparator " - " >
-<!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
-                                                                inside the private browsing mode -->
+<!ENTITY mainWindow.title "&brandFullName;">
+<!ENTITY mainWindow.titlemodifier "&brandFullName;">
+<!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!ENTITY mainWindow.titlePrivateBrowsingSuffix "(tryb prywatny)">
 
 <!ENTITY appmenu.tooltip "Otwórz menu">
@@ -107,6 +99,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY showAllTabsCmd.accesskey "W">
 
 <!ENTITY fxaSignIn.label "Zaloguj się do &syncBrand.shortName.label;">
+<!ENTITY fxaSignedIn.tooltip "Otwórz ustawienia &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Zaloguj się ponownie do &syncBrand.shortName.label;">
 <!ENTITY syncStartPanel2.heading "Włączono &syncBrand.shortName.label;">
 <!ENTITY syncStartPanel2.subTitle "&brandShortName; za moment rozpocznie synchronizację.">
@@ -260,6 +253,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY browserToolboxMenu.accesskey "d">
 <!ENTITY browserToolboxCmd.commandkey "i">
 <!ENTITY browserContentToolboxMenu.label "Narzędzia treści przeglądarki">
+<!ENTITY browserContentToolboxMenu.accesskey "t">
 <!ENTITY devToolbarCloseButton.tooltiptext "Zamknij pasek programisty">
 <!ENTITY devToolbarMenu.label              "Pasek programisty">
 <!ENTITY devToolbarMenu.accesskey          "P">
@@ -288,6 +282,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newNavigatorCmd.accesskey "N" >
 <!ENTITY newPrivateWindow.label     "Nowe okno prywatne">
 <!ENTITY newPrivateWindow.accesskey "p">
+<!ENTITY newNonRemoteWindow.label "Nowe okno z pojedynczym procesem">
 
 <!ENTITY editMenu.label "Edycja" >
 <!ENTITY editMenu.accesskey "E" >
@@ -612,23 +607,11 @@ you can use these alternative items. Otherwise, their values should be empty. --
 <!ENTITY editBookmark.cancel.label                   "Anuluj">
 <!ENTITY editBookmark.removeBookmark.accessKey       "U">
 
-<!ENTITY identity.unverifiedsite2 "Ta witryna nie dostarcza informacji o swej tożsamości.">
-<!ENTITY identity.connectedTo "Połączono z witryną">
-<!-- Localization note (identity.runBy) : This string appears between a
-domain name (above) and an organization name (below). E.g.
-
-example.com
-which is run by
-Example Enterprises, Inc.
-
-The layout of the identity dialog prevents combining this into a single string with
-substitution variables.  If it is difficult to translate the sense of the string
-with that structure, consider a translation which ignores the preceding domain and
-just addresses the organization to follow, e.g. "This site is run by " -->
-<!ENTITY identity.runBy "prowadzoną przez">
-
+<!ENTITY identity.connectionSecure "Zabezpieczone połączenie">
+<!ENTITY identity.connectionNotSecure "Połączenie nie jest bezpieczne">
+<!ENTITY identity.connectionVerified "Program &brandShortName; pozytywnie zweryfikował zabezpieczenia połączenia z tą stroną, prowadzoną przez:">
+<!ENTITY identity.connectionInternal "To jest strona programu &brandShortName;.">
 <!ENTITY identity.moreInfoLinkText2 "Więcej informacji…">
-
 <!ENTITY identity.permissions "Uprawnienia">
 
 <!-- Name for the tabs toolbar as spoken by screen readers.
@@ -716,6 +699,15 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY mixedContentBlocked2.block.accesskey "W">
 <!ENTITY mixedContentBlocked2.disabled.message "Ochrona została wyłączona">
 
+<!ENTITY trackingProtection.title "Ochrona przed śledzeniem">
+<!ENTITY trackingProtection.detectedBlocked "Próby śledzenia Twojej aktywności zostały zablokowane.">
+<!ENTITY trackingProtection.detectedNotBlocked "Wykryto elementy śledzące aktywność, jednak ochrona dla tej strony została wyłączona.">
+<!ENTITY trackingProtection.notDetected "Nie wykryto elementów śledzących aktywność na tej stronie.">
+<!ENTITY trackingProtection.unblock.label "Wyłącz ochronę dla tej strony">
+<!ENTITY trackingProtection.unblock.accesskey "W">
+<!ENTITY trackingProtection.block.label "Włącz ochronę dla tej strony">
+<!ENTITY trackingProtection.block.accesskey "W">
+
 <!ENTITY trackingContentBlocked.message "Śledzenie">
 <!ENTITY trackingContentBlocked.moreinfo "Części strony odpowiedzialne za śledzenie aktywności użytkowników zostały zablokowane.">
 <!ENTITY trackingContentBlocked.learnMore "Więcej informacji">
@@ -780,3 +772,9 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY readingList.sidebar.delete.tooltip "Usuń z czytelni">
 <!ENTITY readingList.sidebar.add.label "Dodaj do czytelni">
 <!ENTITY readingList.sidebar.add.tooltip "Dodaj tę stronę do czytelni">
+
+<!ENTITY saveToPocketCmd.label "Wyślij stronę do Pocket">
+<!ENTITY saveToPocketCmd.accesskey "s">
+<!ENTITY saveLinkToPocketCmd.label "Wyślij odnośnik do Pocket">
+<!ENTITY saveLinkToPocketCmd.accesskey "o">
+<!ENTITY pocketMenuitem.label "Wysłane do Pocket">
