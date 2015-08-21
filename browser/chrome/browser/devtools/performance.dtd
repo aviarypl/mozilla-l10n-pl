@@ -11,13 +11,16 @@
 <!ENTITY performanceUI.loadingNotice "Wczytywanie…">
 <!ENTITY performanceUI.recordButton.tooltip "Przełącza stan rejestrowania wydajności">
 <!ENTITY performanceUI.importButton "Importuj…">
-<!ENTITY performanceUI.exportButton "Zapisz">
 <!ENTITY performanceUI.clearButton "Wyczyść">
 
 <!ENTITY performanceUI.toolbar.waterfall "Oś czasu">
+<!ENTITY performanceUI.toolbar.waterfall.tooltiptext "Wyświetla różne operacje wykonywane przez przeglądarkę podczas rejestrowania, ułożone chronologicznie na osi czasu">
 <!ENTITY performanceUI.toolbar.js-calltree "JavaScript">
+<!ENTITY performanceUI.toolbar.js-calltree.tooltiptext "Wyróżnia funkcje JavaScript w których przeglądarka spędziła najwięcej czasu podczas rejestrowania">
 <!ENTITY performanceUI.toolbar.memory-calltree "Alokacje">
+<!ENTITY performanceUI.toolbar.allocations.tooltiptext "Wyświetla zarejestrowane alokacje pamięci">
 <!ENTITY performanceUI.toolbar.js-flamegraph "Diagram JS">
+<!ENTITY performanceUI.toolbar.js-flamegraph.tooltiptext "Wyświetla zarejestrowany stos wywołań JavaScript">
 <!ENTITY performanceUI.toolbar.memory-flamegraph "Diagram alokacji">
 
 <!ENTITY performanceUI.table.totalDuration "Całkowity czas">
@@ -36,8 +39,6 @@
 <!ENTITY performanceUI.table.totalAlloc.tooltip "Całkowita liczba alokowanych obiektów próbkowanych dla tego położenia oraz w wywołaniach">
 <!ENTITY performanceUI.table.selfAlloc "Własne próbki alokacji">
 <!ENTITY performanceUI.table.selfAlloc.tooltip "Liczba alokowanych obiektów próbkowanych dla tego położenia">
-
-<!ENTITY performanceUI.newtab.tooltiptext "Dodaj nową kartę z zaznaczeniem">
 
 <!ENTITY performanceUI.options.filter.tooltiptext "Wybierz, jakie dane wyświetlać na osi czasu">
 <!ENTITY performanceUI.options.gear.tooltiptext "Skonfiguruj ustawienia panelu wydajności">
