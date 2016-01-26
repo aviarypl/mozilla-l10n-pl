@@ -19,5 +19,5 @@
 
 <!ENTITY newFolderButton.label "Utwórz">
 <!ENTITY newFolderButton.accesskey "U">
-<!ENTITY editFolderButton.label "Uaktualnij">
-<!ENTITY editFolderButton.accesskey "U">
+<!ENTITY editFolderButton.label "Zaktualizuj">
+<!ENTITY editFolderButton.accesskey "a">
