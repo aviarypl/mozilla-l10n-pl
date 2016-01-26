@@ -146,5 +146,5 @@
 <!ENTITY PhotoURL.label "Adres internetowy">
 <!ENTITY PhotoURL.accesskey "A">
 <!ENTITY PhotoURL.placeholder "Wklej lub wprowadź adres internetowy zdjęcia">
-<!ENTITY UpdatePhoto.label "Uaktualnij">
+<!ENTITY UpdatePhoto.label "Zaktualizuj">
 <!ENTITY UpdatePhoto.accesskey "U">
