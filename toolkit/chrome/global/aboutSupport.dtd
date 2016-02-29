@@ -86,8 +86,8 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.installationHistoryTitle "Historia instalacji">
 <!ENTITY aboutSupport.updateHistoryTitle "Historia aktualizacji">
 
-<!ENTITY aboutSupport.copyTextToClipboard.label "Skopiuj tekst do schowka">
-<!ENTITY aboutSupport.copyRawDataToClipboard.label "Skopiuj nieprzetworzone dane do schowka">
+<!ENTITY aboutSupport.copyTextToClipboard.label "Kopiuj tekst do schowka">
+<!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopiuj nieprzetworzone dane do schowka">
 
 <!ENTITY aboutSupport.sandboxTitle "Piaskownica">
 
